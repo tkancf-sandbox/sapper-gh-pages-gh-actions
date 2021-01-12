@@ -39,7 +39,7 @@ export default {
 			}),
 			url({
 				sourceDir: path.resolve(__dirname, 'src/node_modules/images'),
-				publicPath: '/client/'
+				publicPath: '/sapper-gh-pages-gh-actions/client/'
 			}),
 			resolve({
 				browser: true,
